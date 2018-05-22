@@ -1,0 +1,10 @@
+*.epub
+*.mobi
+/*.jpg
+/*.png
+/Images
+/Text/gnr--*
+/recipe.txt
+/prep
+/tmpres
+/abrstate.flag
