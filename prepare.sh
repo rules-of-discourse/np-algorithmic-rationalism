@@ -4,7 +4,7 @@
 cd "$(dirname "${0}")" || exit
 repodir="$(pwd)"
 
-sh prepare-image.sh
+sh prepare-image.sh || exit 2
 abrstate='pub'
 if [ -f 'abrstate.flag' ]; then
   abrstate="$(cat abrstate.flag)"

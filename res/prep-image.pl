@@ -29,6 +29,13 @@ if ( $version_stat eq 'stable' )
   system("convert","CoverImage005.png","CoverImage.jpg");
   exit(0);
 }
+if ( $version_stat eq 'unstable' )
+{
+  system("convert","CoverImage02.png","CoverImage.jpg");
+  exit(0);
+}
 
-system("convert","CoverImage02.png","CoverImage.jpg");
+die "\nSecond line in \"version-info.txt\" MUST be either \"stable\" or \"unstable\".\n\n";
+
+
 
