@@ -32,6 +32,10 @@ chobakepubtl covergen ../Images/CoverImage.jpg > Text/CoverPage.xhtml
   echo "cont:1:*:Declaration of Nature and Purpose for Algorithmic Rationalism"
   echo "text:Text/maintoc.xhtml"
   echo "cont:2:*:Contents"
+  #echo "text:Text/copyright.xhtml"
+  #echo "cont:2:*:Copyright"
+  echo "text:Text/basic-principles-of-algorithmic-rationalism.xhtml"
+  echo "cont:2:*:Basic Principles of Algorithmic Rationalism"
   echo "cvimg:Images/CoverImage.jpg"
 ) > recipe.txt
 
