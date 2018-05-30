@@ -1,0 +1,5 @@
+
+Source of copyright notice:
+https://www.gnu.org/software/texinfo/manual/texinfo/html_node/Verbatim-Copying-License.html
+
+

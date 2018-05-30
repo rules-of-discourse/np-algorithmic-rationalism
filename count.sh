@@ -4,7 +4,7 @@ cd Text || exit
 
 exec writeontask \
   -wcf '*.xhtml' \
-  -rat 1 20 \
+  -rat 1 25 \
 $@
 
 

@@ -32,10 +32,12 @@ chobakepubtl covergen ../Images/CoverImage.jpg > Text/CoverPage.xhtml
   echo "cont:1:*:Declaration of Nature and Purpose for Algorithmic Rationalism"
   echo "text:Text/maintoc.xhtml"
   echo "cont:2:*:Contents"
-  #echo "text:Text/copyright.xhtml"
-  #echo "cont:2:*:Copyright"
+  echo "text:Text/copyright.xhtml"
+  echo "cont:3:*:Copyright"
   echo "text:Text/basic-principles-of-algorithmic-rationalism.xhtml"
   echo "cont:2:*:Basic Principles of Algorithmic Rationalism"
+  echo "text:Text/expand-what-logic-means.xhtml"
+  echo "cont:3:*:Expansion of what the term \"logic\" means"
   echo "cvimg:Images/CoverImage.jpg"
 ) > recipe.txt
 
@@ -43,7 +45,11 @@ chobakepubtl covergen ../Images/CoverImage.jpg > Text/CoverPage.xhtml
 rm -rf *.epub
 chobakepubtl build recipe.txt prep algorithmic-rationalism || exit 3
 rm -rf *.mobi
+echo
 kindlegen algorithmic-rationalism.epub
+echo
+echo
 epubcheck algorithmic-rationalism.epub
+echo
 
 
