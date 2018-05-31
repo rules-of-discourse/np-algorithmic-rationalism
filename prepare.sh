@@ -35,12 +35,14 @@ chobakepubtl covergen ../Images/CoverImage.jpg > Text/CoverPage.xhtml
   echo "text:Text/copyright.xhtml"
   echo "cont:2:*:Copyright"
   echo "text:Text/basic-principles.xhtml"
-  echo "cont:2:*:Basic Principles of Algorithmic Rationalism"
+  echo "cont:2:*:Basic principles of Algorithmic Rationalism"
   echo "text:Text/expand-what-logic-means.xhtml"
   echo "cont:3:*:Use of algorithms to resolve matters of uncertainty"
   echo "text:Text/use-of-algorithms.xhtml"
   echo "cont:3:*:Expansion of what the term \"logic\" means"
   echo "cvimg:Images/CoverImage.jpg"
+  echo "text:Text/relation-to-religion.xhtml"
+  echo "cont:3:*:Relation to religion"
 ) > recipe.txt
 
 
