@@ -1,13 +1,22 @@
 
 p.head {
-  text-indent: 10px;
+  text-indent: 30px;
   font-size: 103%;
   text-align: justify;
 }
 
 p.reg {
-  text-indent: 20px;
+  text-indent: 60px;
   text-align: justify;
 }
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: left;
+}
+
 
 
