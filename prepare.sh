@@ -34,6 +34,8 @@ chobakepubtl covergen ../Images/CoverImage.jpg > Text/CoverPage.xhtml
   #echo "cont:2:*:Contents"
   echo "text:Text/copyright.xhtml"
   echo "cont:2:*:Copyright"
+  echo "text:Text/mainsrc.xhtml"
+  echo "cont:2:*:For the latest edition ..."
   echo "text:Text/basic-principles.xhtml"
   echo "cont:2:*:Basic principles of Algorithmic Rationalism"
   echo "text:Text/expand-what-logic-means.xhtml"
