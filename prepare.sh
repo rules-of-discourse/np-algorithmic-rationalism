@@ -49,6 +49,8 @@ chobakepubtl covergen ../Images/CoverImage.jpg > Text/CoverPage.xhtml
   echo "cont:3:*:Training to overcome irrational biases"
   echo "text:Text/a-new-etiquette.xhtml"
   echo "cont:3:*:A new standard of etiquette"
+  echo "text:Text/devils-advocate.xhtml"
+  echo "cont:3:*:Sacred Call of the Devil's Advocate"
   echo "text:Text/among-philosophy.xhtml"
   echo "cont:2:*:Algorithmic Rationalism in the broader world of philosophy"
   echo "text:Text/from-other-rationalisms.xhtml"
