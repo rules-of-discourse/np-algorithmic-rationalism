@@ -51,6 +51,8 @@ chobakepubtl covergen ../Images/CoverImage.jpg > Text/CoverPage.xhtml
   echo "cont:3:*:A new standard of etiquette"
   echo "text:Text/among-philosophy.xhtml"
   echo "cont:2:*:Algorithmic Rationalism in the broader world of philosophy"
+  echo "text:Text/from-other-rationalisms.xhtml"
+  echo "cont:3:*:Distinction between Algorithmic Rationalism and other schools of Rationalism"
   echo "text:Text/relation-to-religion.xhtml"
   echo "cont:3:*:Relation to religion"
 ) > recipe.txt
