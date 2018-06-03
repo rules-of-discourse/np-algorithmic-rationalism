@@ -1,7 +1,7 @@
 
 # Before we do anything else, we must make sure
 # that we are in the repo's main directory.
-cd "$(dirname "${0}")" || exit
+cd "$(dirname "${0}")" || exit 3
 repodir="$(pwd)"
 
 rm -rf *.epub *.mobi *.pdf
@@ -69,7 +69,13 @@ chobakepubtl build recipe.txt prep algorithmic-rationalism || exit 3
 rm -rf *.mobi
 echo
 kindlegen algorithmic-rationalism.epub
-ebook-convert algorithmic-rationalism.epub algorithmic-rationalism.pdf
+ebook-convert algorithmic-rationalism.epub algorithmic-rationalism.pdf \
+  --embed-all-fonts \
+  --margin-left 80 \
+  --margin-right 80 \
+  --margin-top 50 \
+  --margin-bottom 50 \
+--extra-css exstyles/niceshow.css
 echo
 echo
 epubcheck algorithmic-rationalism.epub
