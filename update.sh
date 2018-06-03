@@ -14,6 +14,9 @@ outdiro="$(chobakwrap -sub realpath .)"
 cd ebkx || exit
 ebkdir="$(chobakwrap -sub realpath .)"
 
+echo ": ${ebkdir} :"
+#exit
+
 #echo cp "${sourcediro}"/*.epub "${sourcediro}"/*.mobi "${ebkdir}/."
 cp "${sourcediro}"/algorithmic-rationalism.epub "${ebkdir}/$(cat "${sourcediro}/tmpres/datetime-cyber.txt")--algorithmic-rationalism.epub"
 cp "${sourcediro}"/algorithmic-rationalism.mobi "${ebkdir}/$(cat "${sourcediro}/tmpres/datetime-cyber.txt")--algorithmic-rationalism.mobi"
@@ -24,7 +27,9 @@ cp "${sourcediro}"/algorithmic-rationalism.mobi "${ebkdir}/$(cat "${sourcediro}/
 )
 
 echo
+echo ": ${ebkdir} :"
 echo "$(cat "${sourcediro}/tmpres/smdate.txt") - $(cat "${sourcediro}/tmpres/justhour.txt")"
+echo
 
 wra "${ebkdir}/index.html"
 #wra -f "${ebkdir}/downloadpage.css"

@@ -2,6 +2,8 @@
 *.mobi
 /*.jpg
 /*.png
+/*.pdf
+/*.ps
 /Images
 /Text/gnr--*
 /Text/CoverPage.xhtml
