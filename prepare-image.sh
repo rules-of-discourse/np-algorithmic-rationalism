@@ -27,7 +27,9 @@ tmpres/justhour.txt
 
 rm -rf *.jpg *.png
 xcf2png CoverImage.xcf -o CoverImage.png
+xcf2png PrintImage.xcf -o PrintImage.png
 
-perl res/prep-image.pl || exit 2
+perl res/prep-image.pl CoverImage faf053 || exit 2
+perl res/prep-image.pl PrintImage 000000 || exit 2
 
 
