@@ -4,6 +4,8 @@
 cd "$(dirname "${0}")" || exit
 repodir="$(pwd)"
 
+rm -rf *.epub *.mobi *.pdf
+
 sh prepare-image.sh || exit 2
 abrstate='pub'
 if [ -f 'abrstate.flag' ]; then
@@ -67,6 +69,7 @@ chobakepubtl build recipe.txt prep algorithmic-rationalism || exit 3
 rm -rf *.mobi
 echo
 kindlegen algorithmic-rationalism.epub
+ebook-convert algorithmic-rationalism.epub algorithmic-rationalism.pdf
 echo
 echo
 epubcheck algorithmic-rationalism.epub
