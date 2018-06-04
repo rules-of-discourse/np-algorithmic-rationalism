@@ -1,4 +1,5 @@
 
+
 span.trm {
   font-weight: bold;
 }
@@ -11,6 +12,14 @@ span.trm:after {
 div.ntr {
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: justify;
+}
+
+div.edfn {
+  margin-top: 10px;
+  font-size: 95%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 
