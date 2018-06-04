@@ -1,0 +1,16 @@
+
+span.trm {
+  font-weight: bold;
+}
+
+span.trm:after {
+  font-weight: normal;
+  content: "\00a0:";
+}
+
+div.ntr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+

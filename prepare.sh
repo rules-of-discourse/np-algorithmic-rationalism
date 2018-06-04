@@ -19,6 +19,8 @@ mkdir Images
 cp CoverImage.jpg Images/.
 cp PrintImage.jpg Images/.
 
+sh glossary.sh
+
 chobakepubtl covergen ../Images/CoverImage.jpg > Text/CoverPage.xhtml
 chobakepubtl covergen ../Images/PrintImage.jpg > Text/PrintCover.xhtml
 

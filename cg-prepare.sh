@@ -36,6 +36,8 @@ echo "text:Text/from-other-rationalisms.xhtml"
 echo "cont:3:*:Distinction between Algorithmic Rationalism and other schools of Rationalism"
 echo "text:Text/relation-to-religion.xhtml"
 echo "cont:3:*:Relation to religion"
+echo "text:Text/glossary.xhtml"
+echo "cont:2:*:Glossary"
 
 
 #echo "text:Text/xxxxxxxxx"
