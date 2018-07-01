@@ -10,6 +10,18 @@ p.reg {
   text-align: justify;
 }
 
+p.plch {
+  text-indent: 30px;
+  font-size: 105%;
+  text-align: justify;
+  border-style: solid;
+  /* border-color: #000000; */
+  border-width: 2px;
+  border-radius: 20px;
+  padding: 10px;
+  font-variant: small-caps;
+}
+
 h2 {
   text-align: center;
 }
