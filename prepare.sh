@@ -47,6 +47,16 @@ kindlegen algorithmic-rationalism.epub
 
 
 
+ebook-convert lpc01-algrat.epub algorithmic-rationalism-mrgn.pdf \
+  --embed-all-fonts \
+  --margin-left 160 \
+  --margin-right 160 \
+  --margin-top 50 \
+  --margin-bottom 50 \
+--extra-css exstyles/niceshow.css
+echo
+echo
+
 ebook-convert lpc01-algrat.epub algorithmic-rationalism.pdf \
   --embed-all-fonts \
   --margin-left 80 \
@@ -56,6 +66,7 @@ ebook-convert lpc01-algrat.epub algorithmic-rationalism.pdf \
 --extra-css exstyles/niceshow.css
 echo
 echo
+
 epubcheck algorithmic-rationalism.epub
 echo
 epubcheck lpc01-algrat.epub
