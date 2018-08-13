@@ -1,6 +1,10 @@
 # np-algorithmic-rationalism
 Declaration of Nature and Purpose for Algorithmic Rationalism
 
-# Copyright info
+# Copyright and Permissions
 Copyright © 2018 - Sophia Elizabeth Shapira
-This work is licensed under the terms of the Creative Commons Attribution-NoDerivatives 4.0 International license. <https://creativecommons.org/licenses/by-nd/4.0/>
+
+Permission is granted to make and distribute verbatim copies
+of this entire document without royalty provided the
+copyright notice and this permission notice are preserved.
+
